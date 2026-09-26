@@ -4,7 +4,8 @@ def number_guesser():
     secret_number = random.randint(1, 100)
     attempts = 0
     score = 100
-
+    
+    print("\nI'm AmirGeek, and I will be your host for this game.\n")
     print("Welcome to the Number Guesser Game!")
     print("I'm thinking of a number between 1 and 100.")
 
@@ -26,4 +27,4 @@ def number_guesser():
             print("Please enter a valid number.")
 
 if __name__ == "__main__":
-    number_guesser()
+    number_guesser() 
