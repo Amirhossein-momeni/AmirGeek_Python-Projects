@@ -1,0 +1,3 @@
+# Requirements for Number Guesser Game
+python>=3.6
+
